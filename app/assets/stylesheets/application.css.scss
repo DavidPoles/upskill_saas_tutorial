@@ -17,11 +17,12 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
-
+//Fonts för h1-h4
 h1, h2, h3, h4 {
   font-family: "Open Sans", sans-serif;
 }
 
+//Background gradient
 .home-callout, .navbar {
   background: #E6DADA;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to right, #274046, #E6DADA);  /* Chrome 10-25, Safari 5.1-6 */
@@ -32,6 +33,7 @@ h1, h2, h3, h4 {
   border: none;
 }
 
+//Home Page styles
 .home-callout {
   color: white;
   margin-top: -20px;
@@ -39,16 +41,13 @@ h1, h2, h3, h4 {
   padding-bottom: 100px;
 }
 
-.navbar-default .navbar-brand, .navbar-default .nav li a {
+.navbar-default .navbar-brand, 
+.navbar-default .nav li a {
   color: white;
+  &:hover {
+    color: white;
+    opacity: 0.75;
+  }
 }
 
-.navbar-default .navbar-brand:hover {
-  color: white;
-  opacity: 0.75;
-}
 
-.navbar-default .nav li a:hover {
-  color: white;
-  opacity: 0.75;
-}
