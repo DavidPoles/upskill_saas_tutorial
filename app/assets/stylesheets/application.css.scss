@@ -41,8 +41,6 @@ h1, h2, h3, h4 {
   font-weight: 800;
 }
 
-
-
 .navbar-default .navbar-brand, 
 .navbar-default .nav li a {
   color: white;
@@ -52,6 +50,17 @@ h1, h2, h3, h4 {
   }
 }
 
+
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: white;
+}
+
+.navbar-default .navbar-toggle {
+  border: 2px solid white;
+  &:hover, &:focus {
+    background-color: #274046;
+  }
+}
 
 //Home Page styles
 .home-callout {
